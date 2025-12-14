@@ -1,0 +1,20 @@
+body {
+  background: #0b1a2b;
+  color: white;
+  font-family: Arial;
+  padding: 30px;
+}
+
+.plan {
+  background: #16263d;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+button {
+  background: #ff8c2b;
+  border: none;
+  padding: 8px;
+  color: white;
+  cursor: pointer;
+}

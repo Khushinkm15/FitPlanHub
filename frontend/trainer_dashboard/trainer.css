@@ -1,0 +1,30 @@
+body {
+  background: #0b1a2b;
+  color: white;
+  font-family: Arial;
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+  padding: 30px;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+button {
+  background: #ff8c2b;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.plan {
+  background: #16263d;
+  padding: 15px;
+  margin-top: 10px;
+}

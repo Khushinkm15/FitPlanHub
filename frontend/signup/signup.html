@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>FitPlanHub</title>
+  <link rel="stylesheet" href="signup.css" />
+</head>
+<body>
+
+  <div class="signup-wrapper">
+
+    <div class="image-section">
+      <img src="gym.jpg" alt="Workout Image">
+    </div>
+
+    <div class="form-section">
+
+      <div class="signup-card">
+
+        <h2 class="logo">
+          <span class="orange">FITPLAN</span>HUB
+        </h2>
+
+        <input type="text" id="name" placeholder="Full Name" />
+        <input type="email" id="email" placeholder="Email Address" />
+        <input type="text" id="contact" placeholder="Contact No." />
+        <input type="password" id="password" placeholder="Password" />
+
+        <select id="role">
+          <option value="">Select Role</option>
+          <option value="USER">User</option>
+          <option value="TRAINER">Trainer</option>
+        </select>
+
+        <button id="signupBtn">SIGN UP</button>
+
+        <p id="message"></p>
+
+        <p class="login-link">
+          Already have an account?
+          <a href="/frontend/login/login.html">Login</a>
+        </p>
+
+      </div>
+    </div>
+
+  </div>
+
+  <script src="signup.js"></script>
+</body>
+</html>
